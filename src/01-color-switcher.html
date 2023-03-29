@@ -9,9 +9,25 @@
   <body>
     <p><a href="index.html">Go back</a></p>
 
-    <button type="button" data-start>Start</button>
-    <button type="button" data-stop>Stop</button>
+    <div class="butoons">
+      <button type="button" data-start>Start</button>
+      <button type="button" data-stop>Stop</button>
+    </div>
 
+    <style>
+      .butoons {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+      }
+
+      button {
+        height: 50px;
+        width: 150px;
+      }
+      
+    </style>
     <script src="js/01-color-switcher.js" type="module"></script>
   </body>
 </html>
