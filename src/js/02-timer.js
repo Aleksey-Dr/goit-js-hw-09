@@ -17,6 +17,7 @@ let intervalId = null;
 
 // Blocking button startBtn before coosing future time
 startBtn.disabled = true;
+// Add listener to element (button)
 startBtn.addEventListener('click', onStartTimer);
 
 // Add flatpickr
